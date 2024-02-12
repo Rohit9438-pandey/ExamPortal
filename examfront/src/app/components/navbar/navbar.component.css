@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  mat-toolbar {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right within the toolbar */
+    padding-right: 50px; /* Add some padding to the right to create space */
+  }
+  
+  .example-icon {
+    margin-right: 50px; /* Adjust the margin as needed */
+  }
+  

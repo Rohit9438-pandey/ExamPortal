@@ -1,0 +1,77 @@
+<mat-card *ngIf="user">
+    <h1 class="ml20">Your Profile Details</h1>
+
+    
+    <mat-card-content> 
+
+         <div class="bootstrap-wrapper">
+            
+            <div class="container">
+
+                <div class="container text-center">
+                     
+                    <img src="../../../assets/IMG_20190802_093025.jpg"
+                     alt="" class="profile-image" />
+
+                     <h1 class="mt20">Rohit Kumar Pandey</h1>
+
+                </div>
+
+               <div class="row">
+
+                <div class="col-md-10 offset-md-1">
+
+                    <!--table details -->
+                    <table class="table text-center">
+                          
+                        <tr>
+                            <td>Username</td>
+                            <td>rohitp9911</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>UserId</td>
+                            <td>Exam01</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Phone</td>
+                            <td>9315859989</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Role</td>
+                            <td>ADMIN</td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td>Status</td>
+                            <td>ACTIVE</td>
+
+                        </tr>
+
+                    </table>
+
+
+                </div>
+
+               </div>
+
+            </div>
+
+         </div>
+
+    </mat-card-content>
+
+    <mat-card-actions class="dashboard-card-content">
+        <button style="margin-right: 20px;" mat-raised-button color="primary">UPDATE</button>
+        <button mat-raised-button color="accent">SHARE</button>
+      </mat-card-actions>
+
+
+</mat-card>

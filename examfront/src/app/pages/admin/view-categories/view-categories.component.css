@@ -1,0 +1,18 @@
+.category-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .text-container {
+    margin-left: 16px; /* Adjust the margin between icon and text */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    margin-top: 20px;
+  }
+
+  mat-list-item + mat-list-item {
+    margin-top: 20px; /* Adjust the margin based on your design */
+  }
